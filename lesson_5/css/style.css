@@ -1,0 +1,106 @@
+@import url(reset.css);
+
+@import url(font.css);
+
+
+body{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: #6C757D;
+    line-height: 1.768;
+}
+
+
+[class*="__container"]{
+    max-width: 816px;
+    margin: 0 auto;
+}
+
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+
+.header{
+    margin-bottom: 80px;
+}
+
+
+.header__container {
+    margin-bottom: 80px;
+}
+
+
+.header__title {
+    color: #212529;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.6;
+    max-width: 416px;
+    margin-bottom: 50px;
+}
+
+.header__info-1 {
+    margin-bottom: 30px;
+}
+
+
+.header__info-2 {
+    margin-bottom: 30px;
+}
+
+
+.header__img-sant {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+.page__container {
+    margin-bottom: 80px;
+}
+
+
+.sab_title {
+    color: #212529;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.6;
+    max-width: 605px;
+    margin-bottom: 45px;
+}
+
+
+.page__info-1 {
+    margin-bottom: 45px;
+}
+
+
+.page_img {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 0;
+}
+
+
+.imgus-1{
+    max-width: 100%;
+    margin-right: 30px;
+}
+
+
+.imgus-2{
+    max-width: 100%;
+}
+
+
+.footer__container{
+    margin-top: 80px;
+    max-height: 100px;
+    overflow: auto;
+}
+
+
