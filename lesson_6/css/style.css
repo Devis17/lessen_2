@@ -1,0 +1,200 @@
+@import url(reset.css);
+
+
+@import url(font.css);
+/* -----------------------body-------------------------------------- */
+body{
+    font-size: 14px;
+    line-height: 1.768;
+    font-family: "Poppins", sans-serif;
+    color: #6C757D;
+}
+
+
+[class*="__container"]{
+    max-width: 1270px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    margin-bottom: 500px;
+}
+
+
+.header {
+    margin-bottom: 80px;
+}
+
+
+.header__container {
+    max-width: 816px;
+    margin-bottom: 80px;
+}
+
+
+.header__tittle {
+    font-size: 25px;
+    line-height: 1.6;
+    font-weight: 700;
+    color: #212529;
+    max-width: 400px;
+    margin-bottom: 40px;
+}
+
+
+.header__info p {
+    margin-bottom: 30px;
+}
+
+
+.text__info-1 {
+    opacity: 0.8;
+    border: 3px solid red;
+    box-shadow: 10px 15px 15px 10px crimson ;
+}
+
+
+.text__info-2 {
+    border-radius: 10px ;
+    outline: 3px dotted purple;
+}
+
+
+.text__info-3 {
+}
+
+
+.img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.main {
+}
+
+
+.main__container {
+    max-width: 816px;
+}
+
+
+.sab__title {
+    font-size: 25px;
+    line-height: 1.6;
+    font-weight: 700;
+    color: #212529;
+    margin-bottom: 45px;
+}
+
+
+.main__info  {
+    margin-bottom: 80px;
+}
+
+
+.main__info-1 {
+    margin-bottom: 30px;
+}
+
+
+.page__block {
+    text-align: center;
+    font-size: 0;
+    margin-bottom: 80px;
+    padding: 0 15px;
+}
+
+
+.page__block-1{
+    margin-right: 30px;
+}
+
+
+.footer__container {
+    max-width: 816px;
+    
+}
+
+
+.footer__text {
+}
+
+
+.footer__text-1 {
+}
+
+/* --------------------------Artical------------------------------------ */
+.envelope{
+    padding: 0 15px;
+}
+
+.artical img {
+    min-width: 100%;
+    margin-bottom: 100px;
+}
+
+
+
+
+.artical__paragrafs  {
+    max-width: 816px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+
+.artical__text-1 {
+    margin-bottom: 30px;
+}
+
+
+.artical__text-2 {
+    margin-bottom: 100px;
+}
+
+
+.artical__title {
+}
+
+
+.artical__title-1 {
+    color: #212529;
+    font-size: 25px;
+    line-height: 1.6;
+    font-weight: 700;
+    max-width: 605px;
+    margin-bottom: 100px
+}
+
+
+.page__two {
+    text-align: center;
+    font-size: 0px;
+    margin-bottom: 100px;
+}
+
+
+.page__one {
+    margin-right: 30px;
+}
+
+
+.last__text {
+    margin: 0 auto;
+    max-width: 816px;
+    font-weight: 300;
+}
+
+
+.last__text-1 {
+}
