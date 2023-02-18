@@ -1,0 +1,272 @@
+@import url(reset.css);
+
+
+@import url(fonts.css);
+
+.wrapper{
+    font-family: "Inter", sans-serif;
+    overflow: hidden;
+}
+
+/* ------------------------------header-------------------------------- */
+
+[class*="__container"]{
+    max-width: 1270px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+header{
+    background: url(../img/01.png) center/ cover no-repeat;
+    min-height: 600px;
+}
+
+
+
+
+.header__text {
+    font-family: "Poppins", sans-serif;
+    color: #E5E5E5;
+    font-size: 12px;
+    line-height: 1.666;
+    padding-top: 365px;
+    padding-bottom: 100px;
+}
+
+
+.small__text {
+    margin-bottom: 15px;
+}
+
+
+.header__tittle {
+    color: #F8F9FA;
+    font-size: 25px;
+    line-height: 1.6;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+
+/* ------------------------------main---------------------------------- */
+
+main{
+    background: rgb(199,211,246);
+    background: linear-gradient(283deg, rgba(199,211,246,1) 11%, rgba(244,247,255,1) 56%, rgba(244,247,255,1) 95%);
+    min-height: 560px;
+}
+
+
+.main__container {
+
+
+}
+
+
+.main__text{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 180px;
+}
+
+
+.main__small-text {
+    color:#3056D3;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 40px;
+    margin-bottom: 13px;
+}
+
+
+.main__tittle {
+    color: #212B36;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    max-width: 470px;
+    margin-bottom: 15px;
+}
+
+
+.main__last-text {
+    color: #637381;
+    font-weight: 500;
+    line-height: 1.5;
+    max-width: 570px;
+    margin-bottom: 35px;
+}
+
+
+.button{
+    color: #FFFFFF;
+    display: inline-block;
+    background: #3056D3;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+
+.button:hover{
+    color: #212B36;
+    text-decoration: underline;
+    transition: all 0.9s;
+}
+
+
+.speaker{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 80px 0;
+}
+
+
+/* --------------------footer------------------------- */
+
+fp
+
+.footer__container{
+    color: #637381;
+    font-weight: 700;
+}
+
+
+.last__tittle {
+    color: #212B36;
+    font-size: 26px;
+    font-weight: 400;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.footer__lists {
+}
+
+
+[class*="list"]{
+    margin-bottom: 30px;
+}
+
+
+.one__list li:not(:last-child){
+    margin-bottom: 18px;
+}
+
+.one__list li::before {
+	content: "";
+	display: inline-block;
+    vertical-align: middle;
+	background: url("../img/05.png") 0 0 no-repeat;
+	width: 8px;
+	height: 8px;
+    padding-left: 20px;
+}
+
+
+.two__list li:not(:last-child){
+    margin-bottom: 18px;
+}
+
+
+.two__list li::before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../img/06.png") 0 0 no-repeat;
+    height: 20px;
+    width: 20px;
+    padding-left: 30px;
+}
+
+
+.three__list li:not(:last-child){
+    margin-bottom: 18px;
+}
+
+
+.three__list li::before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../img/07.png") 0 0 no-repeat;
+    height: 20px;
+    width: 20px;
+    padding-left: 30px;
+}
+
+.four__list li:not(:last-child){
+    margin-bottom: 18px;
+}
+
+
+.four__list li::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../img/08.png") 0 0 no-repeat;
+    height: 20px;
+    width: 20px;
+    padding-left: 30px;
+}
+
+
+.five__list li:not(:last-child){
+    margin-bottom: 18px;
+}
+
+
+.five__list li::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../img/09.png") 0 0 no-repeat;
+    height: 20px;
+    width: 20px;
+    padding-left: 30px;
+}
+
+
+.six__list li:not(:last-child){
+    margin-bottom: 18px;
+}
+
+
+.six__list li::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../img/10.png") 0 0 no-repeat;
+    height: 18px;
+    width: 18px;
+    padding-left: 30px;
+}
+
+
+
+/* -------------------------test-------------------------- */
+
+.test{
+    min-height: 500px;
+}
+
+
+.active:active{
+    display: inline-block;
+    color: red;
+}
+
+
+.active:visited{
+    color: blue;
+}
+
+
+.active:focus{
+    outline: 3px solid red;
+}
+
+.test__block li:nth-child(3){
+    margin-bottom: 10px;
+}
