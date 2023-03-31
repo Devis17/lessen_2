@@ -1,0 +1,262 @@
+@import url(reset.css);
+
+@import url(fonts.css);
+
+body{
+    background-color:#A6AEB6;
+    font-family: "Inter", sans-serif ;
+    font-weight: 500;
+}
+
+.wrapper {
+    overflow: hidden;
+    min-height: 100% ;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper > main{
+
+}
+.header {
+    padding-top: 30px;
+    background-color: #fff;
+    min-height: 100px;
+}
+.header__container {
+    max-width: 1270px;
+    padding: 0 15px;
+    margin:  0 auto;
+    position: relative;
+}
+.header__image {
+}
+.upper-part {
+}
+.menu {
+    position: absolute;
+    top: 40%;
+    left: 220px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.menu__link_button{
+    background-color: #F4F7FF;
+    padding: 9px 25px 9px 21px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.menu__link_button::before{
+    content: "";
+    position: absolute;
+    top:45%;
+    left: 92%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    width: 8px;
+    height: 8px;
+    border-bottom: solid #212B36 2px;
+    border-right: solid #212B36 2px;
+}
+
+.menu__link:hover{
+    color: #3056D3;
+}
+
+.menu__link_check::before{
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: 120%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    width: 8px;
+    height: 8px;
+    border-bottom: solid #212B36 2px;
+    border-right: solid #212B36 2px;
+}
+
+
+.menu__list {
+    position: relative;
+}
+
+.menu__list:hover .sab-menu{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*  */
+.sab-menu {
+    background-color: #fff;
+    position: absolute;
+    top: 120%;
+    left: 0;
+    width: 180px;
+    margin-top: 29px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.sab-menu::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 50px;
+    transform: translate(0, -22px);
+}
+
+
+.footer {
+    position: absolute;
+    top: 10%;
+    left: 100%;
+    background-color: #F4F7FF;
+    width: 370px;
+    height: 350px;
+    padding: 30px;
+}
+
+.footer{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.sab-menu__list:hover .footer{
+    visibility: visible;
+    opacity: 1;
+}
+
+.footer__wrapper{
+    display: flex;
+    column-gap: 80px;
+    color: #637381;
+}
+
+.footer__menu {
+}
+.footer__title {
+    color: #212B36;
+    font-weight: 600;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+.footer__list {
+    font-weight: 500;
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+.sab-menu__list {
+}
+.sab-menu__link {
+}
+
+
+.sab-menu__menu {
+    padding: 22px 24px;
+}
+
+.sab-menu__link{
+    position: relative;
+}
+
+.sab-menu__link_ckech::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 200%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    width: 8px;
+    height: 8px;
+    border-bottom: solid #212B36 2px;
+    border-right: solid #212B36 2px;
+}
+
+
+
+.sab-menu__list:hover .sab-menu{
+    visibility: visible;
+    opacity: 1;
+}
+
+.sab-menu__list:not(:last-child) {
+    margin-bottom: 20px;
+}
+.sab-menu__link:hover {
+    color: #3056D3;
+}
+
+
+.prais {
+    display: inline-flex;
+    position: absolute;
+    top: 30%;
+    right: 0;
+    column-gap: 25px;
+    flex-wrap: wrap;
+}
+.prais__search {
+    padding-top: 3px;
+}
+
+.prais__like{
+    position: relative;
+    transform: scale(1);
+}
+
+.prais__like:hover{
+    transform: scale(0.8);
+    transition: 300ms;
+}
+
+.prais__search{
+    transform: scale(1);
+}
+
+.prais__search:hover{
+    transform: scale(0.8);
+    transition: 300ms;
+}
+
+.prais__number {
+    position: absolute;
+    top: -10%;
+    left: 70%;
+    padding: 3px 5px; 
+    display: inline-block;
+    font-size: 11px;
+    background-color: #3056D3;
+    border-radius: 0px;
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.prais__numbers {
+    position: absolute;
+    top: -10%;
+    left: 90%;
+    padding: 3px 5px; 
+    display: inline-block;
+    font-size: 11px;
+    background-color: #3056D3;
+    border-radius: 0px;
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.prais__cat {
+    transform: scale(1);
+}
+
+.prais__cat:hover{
+    transform: scale(0.8);
+    transition: 300ms;
+}
