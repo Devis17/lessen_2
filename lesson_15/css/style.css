@@ -11,157 +11,178 @@ body{
 .wrapper {
     overflow: clip;
     min-height: 100%;
-
     display: flex;
     flex-direction: column;
 }
 
-.wrapper > main{
+
+.wrapper > main {
     flex-grow: 1;
 }
 
-[class*="__container"]{
-    max-width: 1230px;
-    padding: 0 15px;
-    margin:  0 auto;
+.main {
 }
 
-.header {
+.main__block{
 }
-.header__container {
-}
-.header__wrapper {
+
+.main__title{
     display: flex;
-    flex-direction: column;
-    position: relative;
+    align-items: center;
+    gap: 40px;
+    color: black;
+    font-weight: 600;
+}
+
+.main__title::after{
+    content: "";
+    flex: 0 1 400px;
+    width: 100%;
+    height: 1px;
+    border-bottom: 2px solid black;
+}
+
+.main__container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.main__block {
+    margin-bottom: 30px;
+}
+.main__title {
+}
+.main__wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.main__image{
     margin-bottom: 40px;
 }
-.header__title {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.758;
-    color: #000000;
-}
-.header__long {
-    position: absolute;
-    top: 50%;
-    left: 13%;
-    border: 2px solid #000000;
-    width: 464px;
-}
-.block {
-}
-.block__info {
-    display: flex;
-}
-.block__image img{
+
+.main__image img {
     max-width: 100%;
-    margin-bottom: 40px;
-    padding-right: 140px;
 }
-.block__text {
+
+.main__sab-wrapper{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    line-height: 1.756;
 }
 
-.block__text{
-
-}
-
-.block__title {
-    font-size: 24px;
+.main__sab-title {
+    color: black;
     font-weight: 600;
-    line-height: 1.6;
-    color: #000000;
 }
-.block__paragrafs {
-    max-width: 400px;
-}
-
-
-
-.main {
-}
-.main__container {
-    
+.main__text {
+    max-width: 334px;
+    line-height: 1.7;
 }
 
-.main-wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 32px;
-    margin-bottom: 95px;
-}
 
-.main__room {
+.minimalist-room {
+}
+.minimalist-room__container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.minimalist-room__room {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 40px;
     margin-bottom: 100px;
 }
-.main__title {
+.minimalist-room__title {
     font-size: 56px;
-    font-weight: 700;
-    line-height: 1.392;
-    color: #000000;
+    color: black;
+    font-weight:700;
+    line-height: 1.6;
 }
-.main__text {
+.minimalist-room__text {
     text-align: center;
     max-width: 518px;
-    color: #000000;
-    line-height: 1.743;
+    line-height: 1.7;
+    color: black;
 }
-.main__image img {
-    max-width: 100%;
-}
-
-
-.project {
+.minimalist-room__image {
     display: flex;
-    flex-direction: column;
-    gap: 24px;
+    flex: 0 1 66.666%;
 }
-.project__title {
-    color: #333333;
+
+.minimalist-room__image img{
+    width: 100%;
 }
-.project__paragrafs {
-    line-height: 1.6111;
-    max-width: 584px;
-}
-.project__date {
-    display: inline-flex;
+
+.minimalist-room__wrapper {
+    font-size: 18px;
+    display: flex;
     justify-content: space-between;
-    padding-top: 60px;
-    max-width: 424px;
+    column-gap: 32px;
 }
-.project__info{
+.minimalist-room__content {
     display: flex;
+    flex: 0 1 50%;
+    flex-direction: column;
+    gap: 25px ;
+    line-height: 1.6666;
+}
+.minimalist-room__sab-title {
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.6;
+}
+.minimalist-room__sab-content {
+    padding-bottom: 53px;
+}
+.minimalist-room__date {
+    display: flex;
+    column-gap: 80px;
+}
+.minimalist-room__july {
+}
+.minimalist-room__interier {
+}
+.minimalist-room__process {
+    display: flex;
+    flex: 0 1 50%;
     flex-direction: column;
     gap: 25px;
+    line-height: 1.6666;
 }
-.project__text {
-    line-height: 1.6111;
-    max-width: 584px;
+.minimalist-room__paragraf {
 }
 
-.project__wrapper{
+
+.portfolio-card {
     display: flex;
-	flex-wrap: wrap;
-	row-gap: 32px;
-	margin: 0px -16px;
+    flex-direction: column;
+    gap: 20px;
+}
+.portfolio-card_margin-bottom {
+    margin-top: 40px;
+}
+.portfolio-card__wrapper-image {
+    display: flex;
+    gap: 20px;
 }
 
-.project__img {
+.portfolio-card__img{
     flex: 0 1 50%;
-	padding: 0px 16px;
 }
-.project__img--full {
+
+.portfolio-card__img img {
+    width: 100%;
+}
+
+.portfolio-card__image {
+    display: flex;
     flex: 0 1 100%;
 }
-
-.project__img img{
-    max-width: 100%;
+.portfolio-card__room-image img {
+    width: 100%;
 }
