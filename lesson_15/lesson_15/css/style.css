@@ -1,0 +1,188 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    color: #9C9C9C;
+}
+
+.wrapper {
+    overflow: clip;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.wrapper > main {
+    flex-grow: 1;
+}
+
+.main {
+}
+
+.main__block{
+}
+
+.main__title{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: black;
+    font-weight: 600;
+}
+
+.main__title::after{
+    content: "";
+    flex: 0 1 400px;
+    width: 100%;
+    height: 1px;
+    border-bottom: 2px solid black;
+}
+
+.main__container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.main__block {
+    margin-bottom: 30px;
+}
+.main__title {
+}
+.main__wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.main__image{
+    margin-bottom: 40px;
+}
+
+.main__image img {
+    max-width: 100%;
+}
+
+.main__sab-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main__sab-title {
+    color: black;
+    font-weight: 600;
+}
+.main__text {
+    max-width: 334px;
+    line-height: 1.7;
+}
+
+
+.minimalist-room {
+}
+.minimalist-room__container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.minimalist-room__room {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+.minimalist-room__title {
+    font-size: 56px;
+    color: black;
+    font-weight:700;
+    line-height: 1.6;
+}
+.minimalist-room__text {
+    text-align: center;
+    max-width: 518px;
+    line-height: 1.7;
+    color: black;
+}
+.minimalist-room__image {
+    display: flex;
+    flex: 0 1 66.666%;
+}
+
+.minimalist-room__image img{
+    width: 100%;
+}
+
+.minimalist-room__wrapper {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 32px;
+}
+.minimalist-room__content {
+    display: flex;
+    flex: 0 1 50%;
+    flex-direction: column;
+    gap: 25px ;
+    line-height: 1.6666;
+}
+.minimalist-room__sab-title {
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.6;
+}
+.minimalist-room__sab-content {
+    padding-bottom: 53px;
+}
+.minimalist-room__date {
+    display: flex;
+    column-gap: 80px;
+}
+.minimalist-room__july {
+}
+.minimalist-room__interier {
+}
+.minimalist-room__process {
+    display: flex;
+    flex: 0 1 50%;
+    flex-direction: column;
+    gap: 25px;
+    line-height: 1.6666;
+}
+.minimalist-room__paragraf {
+}
+
+
+.portfolio-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.portfolio-card_margin-bottom {
+    margin-top: 40px;
+}
+.portfolio-card__wrapper-image {
+    display: flex;
+    gap: 20px;
+}
+
+.portfolio-card__img{
+    flex: 0 1 50%;
+}
+
+.portfolio-card__img img {
+    width: 100%;
+}
+
+.portfolio-card__image {
+    display: flex;
+    flex: 0 1 100%;
+}
+.portfolio-card__room-image img {
+    width: 100%;
+}
