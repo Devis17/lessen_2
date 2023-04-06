@@ -1,0 +1,289 @@
+@import "reset.scss";
+@import "fonts.scss";
+
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+	color: #9C9C9C;
+}
+
+$colornn: #333333;
+
+.wrapper {
+    overflow: clip;
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper > main{
+    flex-grow: 1;
+}
+
+.main {
+
+		// .main__container
+
+		&__container {
+            max-width: 1270px;
+            padding: 0 15px;
+            margin: 0 auto;
+		}
+
+		// .main__block-title
+
+		&__block-title {
+		}
+
+		// .main__title
+
+		&__title {
+            display: flex;
+            align-items: center;
+            column-gap: 40px;
+            color: black;
+            &::after{
+                content: "";
+                flex: 0 1 400px;
+                border-bottom: 2px solid black;
+                width: 100%;
+                height: 1px;
+            }
+		}
+
+		// .main__page
+
+		&__page {
+			margin-top: 40px;
+		}
+
+		// .main__wrapper
+
+		&__wrapper {
+            display: flex;
+            justify-content: space-between;
+			flex-wrap: wrap;
+			@media (max-width: 920.98px) {
+				display: flex;
+				flex-direction: column;
+			}
+		}
+
+		// .main__image
+        
+		&__image {
+			margin-bottom: 40px;
+			flex: 0 1 60.23232%; /* 365/768 */
+            img{
+				width: 100%;
+            }
+		}
+
+		// .main__text
+
+		&__text {
+			display: flex;
+			flex-direction: column;
+			flex: 0 1 334px;
+			margin-top: 100px;
+			gap: 0px;
+			@media (max-width: 919.98px) {
+				margin-top: 10px;
+				flex: 0 1 220px;
+			}
+		}
+
+		// .main__sab-title
+
+		&__sab-title {
+			font-size: 24px;
+			color: $colornn;
+			font-weight: 600;
+			line-height: 141.666667%; /* 34/24 */
+		}
+
+		// .main__paragraf
+
+		&__paragraf {
+            font-weight: 400;
+			line-height: 161.111111%; /* 29/18 */
+		}
+}
+
+
+.main-page {
+
+	// .main-page__container
+
+	&__container {
+		max-width: 1270px;
+		padding: 0 15px;
+		margin: 0 auto;
+	}
+
+	// .main-page__block
+
+	&__block {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	&__wrapper{
+		&:not(:last-child){
+			margin-bottom: 53px;
+		}
+	}
+
+	// .main-page__title
+
+	&__title {
+		color: $colornn;
+		text-align: center;
+		margin-bottom: 40px;
+		font-size: 56px;
+		font-weight: 700;
+		line-height: 139.285714%; /* 78/56 */
+		@media (max-width: 515px){
+			font-size: 30px;
+		}
+	}
+
+	// .main-page__text
+
+	&__text {
+		max-width: 518px;
+		text-align: center;
+		font-weight: 400;
+		line-height: 161.111111%;
+		color: $colornn;
+	}
+}
+.main-paga {
+
+	// .main-paga__image
+
+	&__image{
+		flex: 0 1 100%;
+		img{
+			width: 100%;
+		}
+	}
+}
+
+
+.main-page {
+
+	// .main-page__element
+
+    &__info{
+		display: flex;
+		margin-top: 100px;
+		gap: 35px;
+		@media (max-width: 501px){
+			flex-direction: column;
+		}
+	}
+
+	&__element {
+
+	}
+
+	// .main-page__sab-title
+
+	&__sab-title {
+		margin-bottom: 24px;
+		color: $colornn;
+		font-weight: 600;
+		font-size: 24px;
+	}
+
+	// .main-page__paragraf
+
+	&__paragraf {
+		max-width: 584px;
+		line-height: 161.111111%; /* 29/18 */
+	}
+
+	// .main-page__date
+
+	&__date {
+		margin-top: 60px;
+		display: flex;
+		column-gap: 80px;
+	}
+
+	// .main-page__july
+
+	&__july {
+	}
+
+	// .main-page__fumitur
+
+	&__fumitur {
+	}
+
+	// .main-page__proces
+
+	&__proces {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 24px;
+	}
+
+	// .main-page__sub-title
+
+
+
+	// .main-page__paragrafs
+
+	&__paragrafs {
+		max-width: 584px;
+		line-height: 161.111111%; /* 29/18 */
+		&:not(:last-child){
+			margin-bottom: 30px;
+		}
+	}
+}
+
+.main-page {
+
+	// .main-page__column
+
+	&__column {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 34px;
+	}
+
+	// .main-page__image
+
+	&__images {
+		display: flex;
+		gap: 34px;
+		font-size: 0;
+		flex: 0 1 46.842466%;/* 513/584 */
+		img{
+			width: 100%;
+		}
+		@media (max-width: 501px){
+			flex-wrap: wrap;
+			flex: 0 1 100%;
+		}
+	}
+
+		// .main-page__img
+
+		&__picture {
+			flex: 0 1 96.900%;
+			img{
+				width: 100%;
+			}
+		}
+}
+
+
+
+
