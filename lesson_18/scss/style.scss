@@ -58,6 +58,8 @@ body{
 		// .header__menu
 
 		&__menu {
+            @media (max-width: 660px){
+            }
 		}
 
 
@@ -113,6 +115,7 @@ body{
 		&__item {
             @media (max-width: 660px){
                 flex-direction: column;
+                display: inline-block;
             }
             display: flex;
             flex-wrap: wrap;
@@ -131,8 +134,11 @@ body{
             line-height: 208.333333%;
             font-weight: 500; /* 25/12 */
             &_check{
-                &:hover{
+                &:hove{
                     .sab-menu__item{
+                        @media(max-width: 660px){
+                            
+                        }
                         opacity: 1;
                         visibility: visible;
                         position: absolute;
@@ -198,8 +204,8 @@ body{
         background-color: #212529;
         padding: 20px;
         width: 136px;
-        opacity: 0;
-        visibility: hidden;
+        opacity: 1;
+        visibility: visible;
         transition: 0.4s;
         border-radius: 5px;
     }
@@ -214,6 +220,9 @@ body{
         line-height: 208.333333%; /* 25/12 */
         font-weight: 500;
         &:hover{
+            @media (max-width: 660px){
+                color: #28057a;
+            }
             color: #F8F9FA;
         }
     }
