@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Задача 6. З клавіатури вводяться вартість товару та кількість одиниць 3 товарів. Обчислити вартість кожного
+        товару окремо та загальну вартість. Вивести чек (як у супермаркеті) використовуючи елементи розмітки.
+    </p>
+    <script>
+        let drinkCoca = parseInt(prompt('Введіть вартість коли'))
+        let nextDrinkCoca = parseInt(prompt('Введіть кількість коли'))
+        let drinkFanta = parseInt(prompt('Введіть вартість фанти'))
+        let nextDrinkFanta = parseInt(prompt('Введіть кількість фанти'))
+        let drinkPepsi = parseInt(prompt('Введіть віртість пепсі'))
+        let nextDrinkPepsi = parseInt(prompt('Введіть кількість пепсі'))
+
+        let priceCoca = drinkCoca * nextDrinkCoca
+        let priceFanta = drinkFanta * nextDrinkFanta
+        let pricePepse = drinkPepsi * nextDrinkPepsi
+
+        let forAll = priceCoca + priceFanta + pricePepse
+
+        document.write(`Вартість за колу = ${priceCoca} 
+            <br> Вартість за фанту = ${priceFanta}
+            <br> Вартість за пепсі = ${pricePepse}
+            <br> Вартість за все = ${forAll}`)
+    </script>
+</body>
+
+</html>
